@@ -1,6 +1,5 @@
 package com.example.streaming_top_video_tv.presentation.home.components
 
-import android.content.IntentFilter
 import androidx.annotation.OptIn
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -20,7 +19,6 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.ProgressIndicatorDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -32,12 +30,10 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.content.ContextCompat
 import androidx.media3.common.util.Log
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.Download
@@ -47,8 +43,6 @@ import com.example.streaming_top_video_tv.presentation.home.HomeUiEvent
 import com.example.streaming_top_video_tv.presentation.home.HomeViewModel
 import com.example.streaming_top_video_tv.presentation.home.StreamingMovie
 import com.example.streaming_top_video_tv.presentation.ui.theme.DarkTangerine
-import com.example.streaming_top_video_tv.receiver.DownloadUpdateReceiver
-import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_UPDATE
 import com.example.streaming_top_video_tv.util.Utils.formatFileSize
 
 

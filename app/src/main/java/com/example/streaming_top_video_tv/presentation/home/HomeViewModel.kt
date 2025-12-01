@@ -1,12 +1,8 @@
 package com.example.streaming_top_video_tv.presentation.home
 
-import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
 import android.os.Build
-import android.util.Log
-import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.media3.common.util.UnstableApi
@@ -16,16 +12,10 @@ import com.example.streaming_top_video_tv.data.models.ResponseGenresList.Respons
 import com.example.streaming_top_video_tv.data.uses_cases.home.HomeUseCase
 import com.example.streaming_top_video_tv.models.DownloadUiModel
 import com.example.streaming_top_video_tv.models.PlayMovieModel
-import com.example.streaming_top_video_tv.receiver.DownloadUpdateReceiver
 import com.example.streaming_top_video_tv.service.DownloadMovieService
 import com.example.streaming_top_video_tv.util.Constants.CANCEL_DOWNLOAD
 import com.example.streaming_top_video_tv.util.Constants.CANCEL_REQUEST_ID
-import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_BYTE
-import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_PERCENT
-import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_STATE
-import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_UPDATE
 import com.example.streaming_top_video_tv.util.Constants.MOVIE_MODEL
-import com.example.streaming_top_video_tv.util.Constants.REQUEST_ID
 import com.example.streaming_top_video_tv.util.Constants.START_DOWNLOAD
 import com.example.streaming_top_video_tv.util.DownloadManagerUtil
 import com.example.streaming_top_video_tv.util.Resource

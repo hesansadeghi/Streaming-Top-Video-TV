@@ -5,18 +5,14 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import androidx.annotation.OptIn
-import androidx.lifecycle.viewModelScope
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.offline.Download
 import com.example.streaming_top_video_tv.models.DownloadUiModel
-import com.example.streaming_top_video_tv.presentation.home.StreamingMovie
 import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_BYTE
 import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_PERCENT
 import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_STATE
 import com.example.streaming_top_video_tv.util.Constants.DOWNLOAD_UPDATE
 import com.example.streaming_top_video_tv.util.Constants.REQUEST_ID
-import kotlinx.coroutines.launch
-import kotlin.collections.set
 
 class DownloadUpdateReceiver(private val downloads: (DownloadUiModel) -> Unit) : BroadcastReceiver() {
     @OptIn(UnstableApi::class)

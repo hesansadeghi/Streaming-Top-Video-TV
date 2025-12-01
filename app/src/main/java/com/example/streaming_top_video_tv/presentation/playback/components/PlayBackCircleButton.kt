@@ -22,7 +22,6 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.streaming_top_video_tv.presentation.ui.theme.DarkTangerine
-import com.example.streaming_top_video_tv.presentation.ui.theme.MidnightDark
 
 
 @Composable
