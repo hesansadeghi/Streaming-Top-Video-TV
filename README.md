@@ -55,7 +55,8 @@ This version is optimized for large screens and TV remote navigation, allowing u
 
 
 ### 🎞️ PlayBack Screen  
-![Favorites](screenshots/favorites.png)
+<img width="3840" height="2160" alt="Screenshot_20251201_170829" src="https://github.com/user-attachments/assets/935530b6-733f-47bc-9eb6-d99006de915c" />
+
 
 ---
 
