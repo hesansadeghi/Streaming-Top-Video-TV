@@ -61,7 +61,12 @@ This version is optimized for large screens and TV remote navigation, allowing u
 
 ## 🚀 Installation
 
-Clone the repository:
+1. Clone the repository:
 
-`bash
-git clone https://github.com/YourUsername/StreamingTopVideoTV.git
+```bash
+git clone https://github.com/hesansadeghi/Streaming-Top-Video-TV
+```
+
+2. Open the project in Android Studio
+
+3. Run the app ✅
